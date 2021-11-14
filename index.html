@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="src/img/logo-bulma.svg"/>
+  <title>DashBoard</title>
+  <link rel="stylesheet" href="src/css/style.css">
+
+  <!-- Bulma -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+
+  <!-- Icons -->
+  <script src="https://kit.fontawesome.com/aa8174b43c.js" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+
+</head>
+<body>
+<section>
+  <header>
+    <div class="navbar nav">
+      <div class="logo">
+        <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28" style="cursor: pointer;">
+      </div>
+      <div class="search-container">
+        <input id="search-bar" type="text" placeholder="Search...">
+        <ion-icon class="search-icon" name="search"></ion-icon>
+        <ion-icon id="clear-text" class="clear" name="close-circle-outline"></ion-icon>
+      </div>
+      <div class="icons">
+        <div class="icon">
+          <ion-icon name="mail"></ion-icon>
+          <span></span>
+        </div>
+        <div class="icon">
+          <ion-icon name="notifications"></ion-icon>
+          <span class="second"></span>
+        </div>
+        <div class="icon">
+          <ion-icon class="menu-burger" name="menu"></ion-icon>
+        </div>
+      </div>
+      <div class="burger">
+        <div class="burger-container">
+          <div class="burger-nav">
+            <div class="profil">
+              <img src="src/img/profil.svg">
+              <div class="desc">
+                <h4>Angelina Doe</h4>
+                <p>Project Manager</p>
+              </div>
+            </div>
+            <ion-icon class="close" name="close"></ion-icon>
+            <a href="#">Dashboard</a>
+            <a href="#">UI Elements</a>
+            <a href="#">Comonents</a>
+            <a href="#">Forms Stuff</a>
+            <a href="#">Data Table</a>
+            <a href="#">Icons</a>
+            <a href="#">Sample Page</a>
+            <a href="#">Extra</a>
+            <button>Add project</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="container">
+    <div class="title">
+      <h1>DashBoard</h1>
+    </div>
+    <div class="content">
+      <div class="box">
+        <div class="left">
+          <div class="icon">
+            <ion-icon name="stats"></ion-icon>
+          </div>
+          <div style="background:none;" class="desc">
+            <h4 class="has-text-white">Stock Total</h4>
+            <p style="background:none;" class="has-text-white">$180000</p>
+          </div>
+          <div style="background:none;" class="increased">
+            <p class="has-text-white">Increased by 75%</p>
+          </div>
+        </div>
+        <div class="right">
+          <img src="src/img/wave.svg">
+        </div>
+    </div>
+    <div class="box">
+      <div class="left">
+        <div class="icon">
+          <ion-icon name="logo-buffer"></ion-icon>
+        </div>
+        <div style="background:none;" class="desc">
+          <h4 class="has-text-white">Total Profit</h4>
+          <p style="background:none;" class="has-text-white">$40000</p>
+        </div>
+        <div style="background:none;" class="increased">
+          <p class="has-text-white">Increased by 40%</p>
+        </div>
+      </div>
+      <div class="right">
+        <img src="src/img/wave.svg">
+      </div>
+    </div>
+    <div class="box">
+      <div class="left">
+        <div class="icon">
+          <ion-icon name="body"></ion-icon>
+        </div>
+        <div style="background:none;" class="desc">
+          <h4 class="has-text-white">Unique Visitors</h4>
+          <p style="background:none;" class="has-text-white">350000</p>
+        </div>
+        <div style="background:none;" class="increased">
+          <p class="has-text-white">Increased by 90%</p>
+        </div>
+      </div>
+      <div class="right">
+        <img src="src/img/wave.svg">
+      </div>
+    </div>
+    </div>
+    <div class="table box">
+      <div class="title">
+        <h1>Standard Table</h1>
+      </div>
+      <div class="content">
+        <div class="name">
+          <h4>Name</h4>
+          <p style="background:none;">Mike Bhand</p>
+          <p style="background:none;">Andrew Strauss</p>
+          <p>Ross Kopelman</p>
+          <p>Mike Hussy</p>
+          <p>Kevin Pietersen</p>
+        </div>
+        <div style="background:none;" class="email">
+          <h4>Email</h4>
+          <p style="background:none;">mikebhand@email.com</p>
+          <p style="background:none;">info@email.com</p>
+          <p>rosskopelman@email.com</p>
+          <p>mikehussy@email.com</p>
+          <p>kpietersen@email.com</p>
+        </div>
+        <div style="background:none;" class="user">
+          <h4>User Type</h4>
+          <p style="background:none;">Admin</p>
+          <p style="background:none;">Editor</p>
+          <p>Subscriber</p>
+          <p>Admin</p>
+          <p>Admin</p>
+        </div>
+        <div class="join">
+          <h4>Joined</h4>
+          <p style="background:none;">25 Apr, 2018</p>
+          <p style="background:none;">25 Apr, 2018</p>
+          <p>25 Apr, 2018</p>
+          <p>25 Apr, 2018</p>
+          <p>25 Apr, 2018</p>
+        </div>
+        <div class="btn">
+          <h4>Status</h4>
+          <button class="pink">Pending</button>
+          <button class="cyan">Approved</button>
+          <button class="cyan">Approved</button>
+          <button class="orange">Reject</button>
+          <button class="pink">Pending</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<script src="main.js"></script>
+</body>
+</html>
